@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { AddToCalendarButton } from 'add-to-calendar-button-react';
-import { Box, Button, DataList, Flex, Heading, Text } from "@radix-ui/themes";
+import { Box, DataList, Flex, Heading, Text } from "@radix-ui/themes";
 import { TbHanger } from "react-icons/tb";
 import { CiLocationOn } from "react-icons/ci";
 
