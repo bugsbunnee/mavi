@@ -6,9 +6,10 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { TfiClose } from "react-icons/tfi";
 
 import { AnimatePresence, motion } from "motion/react";
+import { usePathname } from "next/navigation";
+
 import { routes } from "@/utils/constants";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 const Menu = () => {
     const [isVisible, setVisible] = useState(false);
