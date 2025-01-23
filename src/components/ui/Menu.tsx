@@ -13,7 +13,7 @@ import { usePathname } from "next/navigation";
 const Menu = () => {
     const [isVisible, setVisible] = useState(false);
     const pathname = usePathname();
-    const width = window.outerWidth * 0.8;
+    const width = typeof window !== 'undefined' ? window.outerWidth * 0.8 : 500;
 
     const toggleVisibility = () => {
         setVisible((prev) => !prev);
