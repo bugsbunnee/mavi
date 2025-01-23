@@ -70,9 +70,9 @@ const Schedule = () => {
                                             timeZone="Africa/Lagos"
                                         />
 
-                                        <Button className="flex lg:hidden text-base px-4 h-[3rem]" radius="full" variant="outline">
+                                        <Link href={weddingDetails.traditional.url} target="_blank" rel="noopenner noreferrer" className="flex items-center gap-2 lg:hidden text-base px-4 py-3 h-[3rem] border border-[#d2d2d2] shadow-lg rounded-full">
                                             <MdOutlineDirections /> Directions
-                                        </Button>
+                                        </Link>
                                     </DataList.Label>
                                     <DataList.Value className="text-base items-center capitalize font-normal">
                                         Our Traditional Wedding
@@ -135,9 +135,9 @@ const Schedule = () => {
                                             timeZone="Africa/Lagos"
                                         />
 
-                                        <Button className="flex lg:hidden text-base px-4 h-[3rem]" radius="full" variant="outline">
+                                        <Link href={weddingDetails.white.url} target="_blank" rel="noopenner noreferrer" className="flex items-center gap-2 lg:hidden text-base px-4 py-3 h-[3rem] border border-[#d2d2d2] shadow-lg rounded-full">
                                             <MdOutlineDirections /> Directions
-                                        </Button>
+                                        </Link>
                                     </DataList.Label>
                                     <DataList.Value className="text-base items-center capitalize font-normal">
                                        The one where we say our vows
@@ -200,9 +200,9 @@ const Schedule = () => {
                                             timeZone="Africa/Lagos"
                                         />
 
-                                        <Button className="flex lg:hidden text-base px-4 h-[3rem]" radius="full" variant="outline">
+                                        <Link href={weddingDetails.reception.url} target="_blank" rel="noopenner noreferrer" className="flex items-center gap-2 lg:hidden text-base px-4 py-3 h-[3rem] border border-[#d2d2d2] shadow-lg rounded-full">
                                             <MdOutlineDirections /> Directions
-                                        </Button>
+                                        </Link>
                                     </DataList.Label>
                                     <DataList.Value className="text-base text-center lg:text-left items-center capitalize font-normal">
                                         We are getting Married!!! 🕺🏾💃🏽 We&apos;d like to share food, drinks and some laughs 

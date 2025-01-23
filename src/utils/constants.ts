@@ -19,7 +19,7 @@ export const weddingDetails = {
         endTime: '05:00PM',
         attire: 'Traditional Attire',
         location: 'Port Harcourt, Rivers State, Nigeria',
-        url: 'https://maps.app.goo.gl/hL9USi78yo74KuKd7',
+        url: 'https://maps.app.goo.gl/uCLe3UvRZN2ahb5W6?g_st=com.google.maps.preview.copy',
     },
     white: {
         id: 'Marcel & Victoria\'s Church Wedding',
@@ -32,7 +32,7 @@ export const weddingDetails = {
             lat: 6.6415316,
             lng: 3.3523659
         },
-        url: 'https://maps.app.goo.gl/CM9X8FnhN8vQpYfDA',
+        url: 'https://maps.app.goo.gl/QoAEAHcmxsek2mED6?g_st=com.google.maps.preview.copy',
     },
     reception: {
         id: 'Marcel & Victoria\'s Wedding Reception',
@@ -45,7 +45,7 @@ export const weddingDetails = {
             lat: 6.5870955,
             lng: 3.3823268,
         },
-        url: 'https://maps.app.goo.gl/9WP2HoXh4wRamu2A7',
+        url: 'https://maps.app.goo.gl/8KaGxAwLSoftz2ik9?g_st=com.google.maps.preview.copy',
     },
 };
 
