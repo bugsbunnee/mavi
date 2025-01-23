@@ -1,0 +1,5 @@
+.radix-themes {
+	--default-font-family: var(--font-urbanist);
+	--heading-font-family: var(--font-cinzel-decorative);
+	--accent-indicator: transparent;
+}
