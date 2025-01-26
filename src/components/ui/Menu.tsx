@@ -38,8 +38,8 @@ const Menu = () => {
                 {isVisible && (
                     <motion.div className="fixed py-3 px-6 z-50 left-0 top-0 bottom-0 bg-white shadow" style={{ width }} initial={{ width: 0, opacity: 0 }} animate={{ width, opacity: 1 }} exit={{ width: 0, opacity: 0 }} >
                         <Flex justify="end" align="end">
-                            <Button onClick={toggleVisibility} radius="full" className="bg-purple-100 w-8 h-8" variant="soft">
-                                <TfiClose size={10} />
+                            <Button onClick={toggleVisibility} radius="full" className="bg-purple-800 w-8 h-8" variant="soft">
+                                <TfiClose className="text-white" />
                             </Button>
                         </Flex>
 

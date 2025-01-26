@@ -3,6 +3,7 @@
 
 import Image from "next/image";
 import { Box, Flex, Heading, Text } from "@radix-ui/themes";
+import { BiDollar } from "react-icons/bi";
 
 const Registry = () => {
   return (
@@ -38,15 +39,59 @@ const Registry = () => {
                     </Box>
     
                     <Box className="mt-4 text-base font-medium text-gray-900">
-                        Please send any cash gifts to our account below.
+                        Please send any cash gifts to our account below. Here are the account numbers:
                     </Box>
                     
-                    <Box className="mt-4 text-base font-medium text-gray-900">
-                        <strong>Account Number:</strong> 6505480509
+                    <Box className="mt-4 text-base font-medium text-gray-900 text-center">
+                        <Text>
+                            $ <span className="font-semibold">USD</span>
+                        </Text>
+                        
                         <br />
-                        <strong>Bank:</strong> Providus Bank
+
+                        <Text>
+                            <strong>Bank:</strong> Access Bank 
+                        </Text>
+                        
                         <br />
-                        <strong>Account Name:</strong> Marcel & Victoria
+
+                        <Text>
+                            <strong>Account number:</strong> 1814462080
+                        </Text>
+
+                        <br />
+
+                        <Text>
+                            <strong>Sort code:</strong> 044152985
+                        </Text>
+
+                        <br />
+
+                        <Text>
+                            <strong>Swift code:</strong> ABNGNGLA
+                        </Text>
+
+                        <br />
+
+                        <Text as="div" className="mt-4">
+                            ₦ <span className="font-semibold">NAIRA</span>
+                        </Text>
+                        
+                        <Text>
+                            <strong>Bank:</strong> Providus Bank
+                        </Text>
+                        
+                        <br />
+
+                        <Text>
+                            <strong>Account number:</strong> 6504534814
+                        </Text>
+
+                        <br />
+
+                        <Text>
+                            <strong>Account Name:</strong> Marcel & Victoria
+                        </Text>
                     </Box>
                 </Box>
             </Flex>

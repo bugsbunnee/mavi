@@ -10,12 +10,12 @@ import { TbHanger } from "react-icons/tb";
 import { CiLocationOn } from "react-icons/ci";
 
 import Map from "@/components/ui/Map";
-import 'add-to-calendar-button';
 
 import { formatDate } from "@/utils/lib";
 import { urbanist, weddingDetails } from "@/utils/constants";
 import { MdOutlineDirections } from "react-icons/md";
 
+import 'add-to-calendar-button';
 
 const Schedule = () => {
   return (
@@ -32,7 +32,7 @@ const Schedule = () => {
             </Box>
           </Flex>
 
-          <Flex className="" justify="center" align="center">
+          <Flex className="text-black" justify="center" align="center">
             <Box className="bg-white text-center lg:w-8/12 p-6 lg:p-0">
                 <Heading as="h2" size="8" className="mb-0 text-black font-medium text-uppercase">Schedule</Heading>
 

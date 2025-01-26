@@ -65,7 +65,8 @@ const Story = () => {
                         <Heading as="h4" size="2" className="font-bold text-gray-900 mb-1 mt-3">MC</Heading>
 
                         <Box className="mt-3 text-base font-medium text-gray-900">
-                           
+                           We met at Church. I noticed her the moment she walked in, and I thought to myself &lsquo;Who be this fine girl? (In the middle of service ooo 😂) &rsquo;. 
+                           I decided I was going to talk to her after service, but she disappeared immediately after the benediction. This happened for 3 consecutive weeks until one fateful day... (To be continued) 
                         </Box>
                     </Box>
                 </Box>
@@ -87,6 +88,8 @@ const Story = () => {
                         <Heading as="h4" size="2" className="font-bold text-gray-900 mb-1 mt-3">MC</Heading>
 
                         <Box className="mt-3 text-base font-medium text-gray-900">
+                            We had a flight to catch very early in the morning, and we almost missed our 
+                            flight. Everyone had already boarded and we had to run, literally, to catch up. Never seen her run that fast till that moment LOL.
                         </Box>
                     </Box>
                 </Box>

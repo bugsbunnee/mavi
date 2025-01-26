@@ -105,19 +105,21 @@ const PageWrapper: React.FC<PropsWithChildren> = ({ children }) => {
                     </Box>
                 </div>
 
-                {children}
+                <Box className="bg-white h-full">
+                    {children}
 
-                <Flex align="center" justify="center" className="my-12">
-                    <Box className="w-16 h-16 rounded-full overflow-hidden">
-                        <Image 
-                            src='/images/mv-logo-dark.jpeg'
-                            alt='Marcel & Victoria Signature Dark'
-                            className="object-cover"
-                            width={150}
-                            height={150}
-                        />
-                    </Box>
-                </Flex>
+                    <Flex align="center" justify="center" className="mt-12 pb-12">
+                        <Box className="w-16 h-16 rounded-full overflow-hidden">
+                            <Image 
+                                src='/images/mv-logo-dark.jpeg'
+                                alt='Marcel & Victoria Signature Dark'
+                                className="object-cover"
+                                width={150}
+                                height={150}
+                            />
+                        </Box>
+                    </Flex>
+                </Box>
             </div>
         </div>
     );
