@@ -3,7 +3,6 @@
 
 import Image from "next/image";
 import { Box, Flex, Heading, Text } from "@radix-ui/themes";
-import { BiDollar } from "react-icons/bi";
 
 const Registry = () => {
   return (
