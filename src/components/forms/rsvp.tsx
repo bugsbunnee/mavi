@@ -12,6 +12,7 @@ import { RSVP_DEADLINE } from "@/utils/constants";
 import { formatDate } from "@/utils/lib";
 
 import sendRSVP from "@/services/rsvp";
+import axios from "axios";
 
 const schema = z.object({
     firstName: z.string(),
@@ -38,7 +39,10 @@ const RSVPForm = () => {
 
             reset();
         } catch (error) {
-            console.log(error);
+            if (axios.isAxiosError(error) && error.response?.data?.message) {
+                return toast.error(error.response?.data?.message);
+            }
+
             toast.error('Ooops! Looks like we could\'t save your response at this time! Please try again later');
         }
     };
