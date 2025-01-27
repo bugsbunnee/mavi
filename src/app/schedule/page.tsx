@@ -47,10 +47,10 @@ const Schedule = () => {
                         <Box>
                             <DataList.Root>
                                 <DataList.Item className="mb-3.5 flex flex-col-reverse max-lg:justify-center max-lg:items-center lg:grid">
-                                    <DataList.Label className="min-w-20 text-center lg:text-right text-gray-500 text-base font-semibold">
+                                    <DataList.Label className="block min-w-20 text-right text-gray-500 text-base font-semibold">
                                         {weddingDetails.traditional.startTime}
                                     </DataList.Label>
-                                    <DataList.Value className="text-center justify-center lg:text-left text-xl capitalize tracking-widest font-semibold">
+                                    <DataList.Value className="text-left text-xl capitalize tracking-widest font-semibold">
                                         Traditional Wedding
                                     </DataList.Value>
                                 </DataList.Item>

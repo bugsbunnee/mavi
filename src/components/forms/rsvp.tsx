@@ -44,7 +44,7 @@ const RSVPForm = () => {
     };
 
     return ( 
-        <form onSubmit={handleSubmit(submitRSVP)}>
+        <form className="placeholder-gray-600" onSubmit={handleSubmit(submitRSVP)}>
             <Box className="text-center">
                 <Heading as="h2" size="8" className="mb-2 text-gold font-semibold text-uppercase">RSVP</Heading>
                 <Text className="font-medium text-base ">RSVP by {formatDate(RSVP_DEADLINE)}</Text>
@@ -55,7 +55,7 @@ const RSVPForm = () => {
 
                 <Flex direction="row" gap="3" justify="start" align="center" mt="3">
                     <Flex className="flex-1">
-                        <TextField.Root variant="soft" {...register('firstName')} radius="small" className="w-full bg-white text-sm border border-gold text-black outline-0" placeholder="First Name" size="3">
+                        <TextField.Root variant="soft" {...register('firstName')} radius="small" className="w-full bg-white placeholder-gray-600 text-sm border border-gold text-black outline-0" placeholder="First Name" size="3">
                             <TextField.Slot>
                                 <BiUser className="text-gold" height="16" width="16" />
                             </TextField.Slot>
@@ -70,7 +70,7 @@ const RSVPForm = () => {
                         )}
                     </Flex>
                     <Flex className="flex-1">
-                        <TextField.Root variant="soft" {...register('lastName')} radius="small" className="w-full bg-white text-sm border border-gold text-black outline-0" placeholder="Last Name" size="3">
+                        <TextField.Root variant="soft" {...register('lastName')} radius="small" className="w-full bg-white placeholder-gray-600 text-sm border border-gold text-black outline-0" placeholder="Last Name" size="3">
                             <TextField.Slot>
                                 <BiUser className="text-gold" height="16" width="16" />
                             </TextField.Slot>
@@ -92,7 +92,7 @@ const RSVPForm = () => {
             <Box className="mt-8">
                 <Heading as="h3" className="text-xs font-semibold text-gold">Email (*)</Heading>
 
-                <TextField.Root mt="3" variant="soft" {...register('email')} radius="small" className="w-full text-black bg-white text-sm border border-gold outline-0" placeholder="johndoe@gmail.com" size="3">
+                <TextField.Root mt="3" variant="soft" {...register('email')} radius="small" className="w-full text-black placeholder-gray-600 bg-white text-sm border border-gold outline-0" placeholder="johndoe@gmail.com" size="3">
                     <TextField.Slot>
                         <BiEnvelope className="text-gold" height="16" width="16" />
                     </TextField.Slot>
@@ -131,7 +131,7 @@ const RSVPForm = () => {
                 <Box className="flex-1">
                     <Heading as="h3" className="text-xs font-semibold text-gold">What&apos;s your signature dance move? Give it a name</Heading>
                     
-                    <TextField.Root mt="3" variant="soft" {...register('favoriteDanceMove')} radius="small" className="w-full bg-white text-sm border border-gold text-black outline-0" placeholder="Your dance move" size="3">
+                    <TextField.Root mt="3" variant="soft" {...register('favoriteDanceMove')} radius="small" className="w-full bg-white placeholder-gray-600 text-sm border border-gold text-black outline-0" placeholder="Your dance move" size="3">
                         <TextField.Slot>
                             <BiParty className="text-gold" height="16" width="16" />
                         </TextField.Slot>
@@ -149,7 +149,7 @@ const RSVPForm = () => {
                 <Box className="flex-1" >
                     <Heading as="h3" className="text-xs font-semibold text-gold">If our love story was a movie, what title would you give it?</Heading>
 
-                    <TextField.Root mt="3" variant="soft" {...register('storyName')} radius="small" className="w-full bg-white text-sm border border-gold text-black outline-0" placeholder="Our love story" size="3">
+                    <TextField.Root mt="3" variant="soft" {...register('storyName')} radius="small" className="w-full bg-white placeholder-gray-600 text-sm border border-gold text-black outline-0" placeholder="Our love story" size="3">
                         <TextField.Slot>
                             <BiBook className="text-gold" height="16" width="16" />
                         </TextField.Slot>
@@ -170,7 +170,7 @@ const RSVPForm = () => {
             <Box className="mt-8">
                 <Heading as="h3" className="text-xs font-semibold text-gold">What&apos;s the best marriage advice you&apos;ve every heard or can give?</Heading>
 
-                <TextField.Root mt="3" variant="soft" {...register('marriageAdvice')} radius="small" className="w-full text-black bg-white text-sm border border-gold outline-0" placeholder="Give us some advice" size="3">
+                <TextField.Root mt="3" variant="soft" {...register('marriageAdvice')} radius="small" className="w-full text-black placeholder-gray-600 bg-white text-sm border border-gold outline-0" placeholder="Give us some advice" size="3">
                     <TextField.Slot>
                         <BiEnvelope className="text-gold" height="16" width="16" />
                     </TextField.Slot>
@@ -191,7 +191,7 @@ const RSVPForm = () => {
                 <Box className="flex-1">
                     <Heading as="h3" className="text-xs font-semibold text-gold">If you had to give us a wedding hashtag, what would it be?</Heading>
                     
-                    <TextField.Root mt="3" variant="soft" {...register('hashtag')} radius="small" className="w-full bg-white text-sm border border-gold text-black outline-0 uppercase" placeholder="LOVELEDBYFAITH" size="3">
+                    <TextField.Root mt="3" variant="soft" {...register('hashtag')} radius="small" className="w-full bg-white placeholder-gray-600 text-sm border border-gold text-black outline-0 uppercase" placeholder="LOVELEDBYFAITH" size="3">
                         <TextField.Slot>
                             <BiHash className="text-gold" height="16" width="16" />
                         </TextField.Slot>
@@ -209,7 +209,7 @@ const RSVPForm = () => {
                 <Box className="flex-1" >
                     <Heading as="h3" className="text-xs font-semibold text-gold">Which historical figure would you bring as your plus one if you could?</Heading>
 
-                    <TextField.Root mt="3" variant="soft" {...register('figure')} radius="small" className="w-full bg-white text-sm border border-gold text-black outline-0" placeholder="Aaron Piere (Mufasa)" size="3">
+                    <TextField.Root mt="3" variant="soft" {...register('figure')} radius="small" className="w-full bg-white placeholder-gray-600 text-sm border border-gold text-black outline-0" placeholder="Aaron Piere (Mufasa)" size="3">
                         <TextField.Slot>
                             <BiUser className="text-gold" height="16" width="16" />
                         </TextField.Slot>
@@ -230,7 +230,7 @@ const RSVPForm = () => {
             <Box className="mt-8">
                 <Heading as="h3" className="text-xs font-semibold text-gold">What&apos;s your favorite memory with either of us?</Heading>
 
-                <TextField.Root mt="3" variant="soft" {...register('favoriteMemory')} radius="small" className="w-full text-black bg-white text-sm border border-gold outline-0" placeholder="Your favourite memory" size="3">
+                <TextField.Root mt="3" variant="soft" {...register('favoriteMemory')} radius="small" className="w-full text-black placeholder-gray-600 bg-white text-sm border border-gold outline-0" placeholder="Your favourite memory" size="3">
                     <TextField.Slot>
                         <BiBrain className="text-gold" height="16" width="16" />
                     </TextField.Slot>

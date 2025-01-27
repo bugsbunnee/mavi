@@ -38,7 +38,7 @@ const Registry = () => {
                     </Box>
     
                     <Box className="mt-4 text-base font-medium text-gray-900">
-                        Please send any cash gifts to our account below. Here are the account numbers:
+                        If you are thinking of giving us a gift, we are thankful. We would appreciate if all gifts are monetized. Here are the account numbers:
                     </Box>
                     
                     <Box className="mt-4 text-base font-medium text-gray-900 text-center">
